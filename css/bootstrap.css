@@ -88,7 +88,7 @@ hr {
     width: 0px;
   }  
   50%{
-      width: 590px;
+      width: 580px;
   }
   100%{
     width: 0px;
@@ -101,6 +101,40 @@ hr {
   }  
   50%{
       width: 740px;
+  }
+  100%{
+    width: 0px;
+  }
+}
+
+.wadah-mengetik2
+{
+	width: 740px;
+	white-space:nowrap;
+	overflow:hidden;
+
+  animation: ketik2 10s steps(50, end) infinite;
+  -webkit-animation: ketik2 10s steps(50, end) infinite;;
+}
+
+@keyframes ketik2{
+  0%{
+    width: 0px;
+  }  
+  50%{
+      width: 100px;
+  }
+  100%{
+    width: 0px;
+  }
+}
+
+@-webkit-keyframes ketik2{
+  0%{
+    width: 0px;
+  }  
+  50%{
+      width: 100px;
   }
   100%{
     width: 0px;
