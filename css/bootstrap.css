@@ -113,8 +113,8 @@ hr {
 	white-space:nowrap;
 	overflow:hidden;
 
-  animation: ketik2 10s steps(50, end) infinite;
-  -webkit-animation: ketik2 10s steps(50, end) infinite;;
+  animation: ketik2 5s steps(50, end) infinite;
+  -webkit-animation: ketik2 5s steps(50, end) infinite;;
 }
 
 @keyframes ketik2{
